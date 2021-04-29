@@ -1,4 +1,4 @@
-# Scope of API for Beta Release
+# Scope of API
 
 ## Supported Dimensions (used in both filters and groupBy query parameter)
 

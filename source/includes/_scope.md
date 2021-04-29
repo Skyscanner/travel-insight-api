@@ -35,8 +35,7 @@
 - **originIATA:** Origin IATA airport code
 - **destinationIATA:** Destination IATA airport code
 - **cabinClass:** Cabin class type, either ECONOMY, BUSINESS, PREMIUMECONOMY, FIRST
-- **departureDate:** Departure date
-- **returnDate:** Return date
+- **departureDate:** Departure date- **returnDate:** Return date
 - **departureTimeOfDay:** Departure time of day. Either 'EARLY_MORNING', 'MORNING', 'AFTERNOON', 'EVENING'. Early Morning (0000 to 0600), Morning (0600 to 1200), Afternoon (1200 to 1800), Evening (1800 to 2400)
 - **returnTimeOfDay:** Return time of day. Either 'EARLY_MORNING', 'MORNING', 'AFTERNOON', 'EVENING'. Early Morning (0000 to 0600), Morning (0600 to 1200), Afternoon (1200 to 1800), Evening (1800 to 2400)
 - **kind:** Trip type. Either 'RETURN', 'ONE_WAY' or 'MULTI_CITY'
@@ -71,7 +70,7 @@
 ### On redirects data
 -   **count:** Total number of rows matching given groupby combinations
 -   **averageFarePerPax:** Average fare price in USD per pax for rows matching given groupby combinations
-
+-   **sumFarePerPaxInUSD:** Sum of fare price in USD per pax for rows matching given groupby combinations
 
 
 ## Supported Query Criteria 
@@ -81,3 +80,5 @@
 -	Max number of queries allowed in a minute: 1
 -	Partner's API key must be available in `API-Key` request header
 -	Data available for querying dates from 1st October 2019 onwards.
+-	Maximum number of results returned in an API call is 10000 and the API does not support paging at this stage.
+-	Be aware that **searches** can be done on a city or airport level. Consider this when using the **originIATA** or **destinationIATA** filters. eg all searches for London should use the followings values: LHR, LCY, LGW, LTN, SEN (airport codes) **and** LON (IATA code for the city)

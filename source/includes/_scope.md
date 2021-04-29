@@ -14,6 +14,18 @@
 -	**pax:** Passenger count
 -	**route:** The first leg's origin city concatenated with the final leg's destination city.
 -	**kind:** Trip type. Either 'RETURN', 'ONE_WAY' or 'MULTI_CITY'
+- **daysBeforeTravel:** How many days before travel the search happened
+- **travelMonth:** Date of travel of the oubound leg in the format YYYYMM
+- **dayOfWeek:** Day of the week of the oubound leg (Monday is 1)
+- **lengthOfTripInDays:** Difference in days between the outbound and return leg of the trip
+- **travelType:** One of DOMESTIC or INTERNATIONAL
+- **userCityLatitude:** Latitude of the user location
+- **userCityLongitude:** Longitude of the user location
+- **userCityName:** City name of the user
+- **userCountryCode:** Country code of the user
+- **userRegionCode:** Region name of the user
+- **userRegionName:** Region code of the user
+- **distanceToOriginInMetres:** Distance in meters between the user location and the departing airport
 
 
 ### On exits(**redirects**) data:
@@ -33,6 +45,22 @@
 - **route:** The first leg's origin city concatenated with the final leg's destination city.
 - **pax:** Passenger count
 - **journeyDuration:** Journey duration in minutes
+- **departureTimeOfDay:** One of MORNING, AFTERNOON, EVENING for the outbound leg
+- **returnTimeOfDay:** One of MORNING, AFTERNOON, EVENING for the return leg
+- **marketingCarriers:** List of carriers on the itinerary selected
+- **daysBeforeTravel:** How many days before travel the redirect happened
+- **travelMonth:** Date of travel of the oubound leg in the format YYYYMM
+- **dayOfWeek:** Day of the week of the oubound leg (Monday is 1)
+- **firstMarketingCarrier:** First carrier on the selected itinerary
+- **lengthOfTripInDays:** Difference in days between the outbound and return leg of the trip
+- **travelType:** One of DOMESTIC or INTERNATIONAL
+- **userCityLatitude:** Latitude of the user location
+- **userCityLongitude:** Longitude of the user location
+- **userCityName:** City name of the user
+- **userCountryCode:** Country code of the user
+- **userRegionCode:** Region name of the user
+- **userRegionName:** Region code of the user
+- **distanceToOriginInMetres:** Distance in meters between the user location and the departing airport
 
 
 ## Supported Aggregations

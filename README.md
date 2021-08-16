@@ -1,7 +1,7 @@
 Getting Started with Travel Insight API Documentation
 ------------------------------
 
-[![Build Status](https://travis-ci.org/Skyscanner/travel-insight-api.svg?branch=master)](https://travis-ci.org/Skyscanner/travel-insight-api)
+[![Build Status](https://github.com/Skyscanner/travel-insight-api/workflows/travel-insight-api/badge.svg)](https://github.com/Skyscanner/travel-insight-api/actions)
 
 The generated documentation can be found at <a href="https://skyscanner.github.io/travel-insight-api">skyscanner.github.io/travel-insight-api</a>
 
@@ -43,7 +43,7 @@ You may find the tool [<em>swagger-to-slate</em>](https://www.npmjs.com/package/
 ## Publishing
 1. Create a pull request to this repo
 2. Merge into master
-3. Travis will automatically deploy to Github pages from master
+3. Github Actions will automatically deploy to Github pages from master
 
 
 

@@ -38,13 +38,15 @@
       ]
     }
   ],
-  "included": [
-    {
-      "market": "ES",
-      "origin": "BCN",
-      "destination": "*"
-    }
-  ]
+  "subscription": {
+    "included": [
+      {
+        "market": "ES",
+        "origin": "BCN",
+        "destination": "*"
+      }
+    ]
+  }
 }
 ```
 

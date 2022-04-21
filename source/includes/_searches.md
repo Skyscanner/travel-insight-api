@@ -26,7 +26,14 @@
           "value": "SG"
         }
       ],
-      "aggregations": "count"
+      "aggregations": "count",
+      "included": [
+        {
+          "market": "ES",
+          "origin": "BCN",
+          "destination": "*"
+        }
+      ]
     }
   ]
 }

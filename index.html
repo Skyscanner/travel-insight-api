@@ -329,6 +329,7 @@
 <li><strong>userRegionCode:</strong> Region name of the user</li>
 <li><strong>userRegionName:</strong> Region code of the user</li>
 <li><strong>distanceToOriginInMetres:</strong> Distance in meters between the user location and the departing airport</li>
+<li><strong>subscription.included</strong>: Markets and routes included in your subscription. &quot;*&quot; means &quot;anything&quot;.</li>
 </ul>
 <h3 id='on-exits-redirects-data'>On exits(<strong>redirects</strong>) data:</h3>
 <ul>
@@ -363,6 +364,7 @@
 <li><strong>userRegionCode:</strong> Region name of the user</li>
 <li><strong>userRegionName:</strong> Region code of the user</li>
 <li><strong>distanceToOriginInMetres:</strong> Distance in meters between the user location and the departing airport</li>
+<li><strong>subscription.included</strong>: Markets and routes included in your subscription. &quot;*&quot; means &quot;anything&quot;.</li>
 </ul>
 <h2 id='supported-aggregations'>Supported Aggregations</h2><h3 id='on-searches-data-2'>On searches data</h3>
 <ul>
@@ -443,7 +445,16 @@
         </span><span class="p">},</span><span class="w">
       </span><span class="p">]</span><span class="w">
     </span><span class="p">}</span><span class="w">
-  </span><span class="p">]</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="s2">"subscription"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"included"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="s2">"market"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ES"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"origin"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BCN"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"destination"</span><span class="p">:</span><span class="w"> </span><span class="s2">"*"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre>
 <p><strong>/exits</strong> endpoint supports 2 types of queries</p>
@@ -536,7 +547,16 @@
           </span><span class="s2">"value"</span><span class="p">:</span><span class="w"> </span><span class="s2">"SG"</span><span class="w">
         </span><span class="p">}</span><span class="w">
       </span><span class="p">],</span><span class="w">
-      </span><span class="s2">"aggregations"</span><span class="p">:</span><span class="w"> </span><span class="s2">"count"</span><span class="w">
+      </span><span class="s2">"aggregations"</span><span class="p">:</span><span class="w"> </span><span class="s2">"count"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"subscription"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="s2">"included"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+          </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"market"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ES"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"origin"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BCN"</span><span class="p">,</span><span class="w">
+            </span><span class="s2">"destination"</span><span class="p">:</span><span class="w"> </span><span class="s2">"*"</span><span class="w">
+          </span><span class="p">}</span><span class="w">
+        </span><span class="p">]</span><span class="w">
+      </span><span class="p">}</span><span class="w">
     </span><span class="p">}</span><span class="w">
   </span><span class="p">]</span><span class="w">
 </span><span class="p">}</span><span class="w">

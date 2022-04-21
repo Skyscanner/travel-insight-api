@@ -26,6 +26,7 @@
 - **userRegionCode:** Region name of the user
 - **userRegionName:** Region code of the user
 - **distanceToOriginInMetres:** Distance in meters between the user location and the departing airport
+- **subscription.included**: Markets and routes included in your subscription. "*" means "anything".
 
 
 ### On exits(**redirects**) data:
@@ -60,6 +61,7 @@
 - **userRegionCode:** Region name of the user
 - **userRegionName:** Region code of the user
 - **distanceToOriginInMetres:** Distance in meters between the user location and the departing airport
+- **subscription.included**: Markets and routes included in your subscription. "*" means "anything".
 
 
 ## Supported Aggregations

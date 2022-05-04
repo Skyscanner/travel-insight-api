@@ -79,7 +79,7 @@ Results are sorted by the count value (descending)
 
 ## Supported Query Criteria 
 -	Max number of `filter`s allowed in a query: 11
--	Max number of dimensions allowed in a `groupBy` query parameter: 3
+-	Max number of dimensions allowed in a `groupBy` query parameter: 4
 -	Max date interval supported in a query: 30 days, by default
 -	Max number of queries allowed in a minute: 1
 -	Partner's API key must be available in `API-Key` request header

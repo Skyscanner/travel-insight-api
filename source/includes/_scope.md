@@ -81,7 +81,7 @@ Results are sorted by the count value (descending)
 -	Max number of `filter`s allowed in a query: 11
 -	Max number of dimensions allowed in a `groupBy` query parameter: 4
 -	Max date interval supported in a query: 30 days, by default
--	Max number of queries allowed in a minute: 1
+-	Max number of queries allowed in a minute: 50
 -	Partner's API key must be available in `API-Key` request header
 - Data is available from 2018-01-01, by default.
 -	Maximum number of results returned in an API call is 100000 and the API does not support paging at this stage.

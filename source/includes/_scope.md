@@ -84,4 +84,3 @@ Results are sorted by the count value (descending)
 - Data is available from 2018-01-01, by default.
 -	Maximum number of results returned in an API call is 100000 and the API does not support paging at this stage.
 -	Be aware that **searches** can be done on a city or airport level. Consider this when using the **originIATA** or **destinationIATA** filters. eg all searches for London should use the followings values: LHR, LCY, LGW, LTN, SEN (airport codes) **and** LON (IATA code for the city)
-- Have in mind, **userRegionCode** has been removed from iris since it is always null, but still kept in interface in both searches and redirects to avoid breaking customer queries. 

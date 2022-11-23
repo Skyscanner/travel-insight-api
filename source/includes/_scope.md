@@ -23,8 +23,7 @@
 - **userCityLongitude:** Longitude of the user location
 - **userCityName:** City name of the user
 - **userCountryCode:** Country code of the user
-- **userRegionCode:** Region name of the user
-- **userRegionName:** Region code of the user
+- **userRegionName:** Region name of the user
 - **distanceToOriginInMetres:** Distance in meters between the user location and the departing airport
 - **subscription.included**: Markets and routes included in your subscription. "*" means "anything".
 
@@ -58,8 +57,7 @@
 - **userCityLongitude:** Longitude of the user location
 - **userCityName:** City name of the user
 - **userCountryCode:** Country code of the user
-- **userRegionCode:** Region name of the user
-- **userRegionName:** Region code of the user
+- **userRegionName:** Region name of the user
 - **distanceToOriginInMetres:** Distance in meters between the user location and the departing airport
 - **subscription.included**: Markets and routes included in your subscription. "*" means "anything".
 

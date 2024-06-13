@@ -39,7 +39,6 @@
 - **departureTimeOfDay:** Departure time of day. Either 'EARLY_MORNING', 'MORNING', 'AFTERNOON', 'EVENING'. Early Morning (0000 to 0600), Morning (0600 to 1200), Afternoon (1200 to 1800), Evening (1800 to 2400)
 - **returnTimeOfDay:** Return time of day. Either 'EARLY_MORNING', 'MORNING', 'AFTERNOON', 'EVENING'. Early Morning (0000 to 0600), Morning (0600 to 1200), Afternoon (1200 to 1800), Evening (1800 to 2400)
 - **kind:** Trip type. Either 'RETURN', 'ONE_WAY' or 'MULTI_CITY'
-- **marketingCarriers:** Marketing carrier code
 - **stops:** Number of stops
 - **route:** The first leg's origin city concatenated with the final leg's destination city.
 - **pax:** Passenger count

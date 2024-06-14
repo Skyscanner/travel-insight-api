@@ -18,7 +18,7 @@ jobs:
       # The version of the Ruby action is setup based on the guide for Ruby versioning (see https://github.com/ruby/setup-ruby#versioning)
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.4.0
+        ruby-version: 2.7
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     
     - name: Run build
